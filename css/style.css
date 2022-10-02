@@ -1,0 +1,22 @@
+.done{
+    text-decoration: line-through;
+}
+.container{
+    display: block;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color:cornsilk;
+    border-radius: 20px;
+    border: 2px solid aqua;
+
+}
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+}

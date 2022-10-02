@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To do list</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1> To do list </h1>
+        <p>Update your daily tasks</p>
+        <p>Your list</p>
+    </div>
+
+    <ul>
+        <li data-id="0">Study before exam
+            <button class="btn btn-sm btn-danger">X</button>
+        </li>
+        <li data-id="1">Go shopping
+            <button class="btn btn-sm btn-danger" s>X</button>
+        </li>
+        <li data-id="2">Buy Milk
+            <button class="btn btn-sm btn-danger">X</button>
+        </li>
+    </ul>
+    <form class="card card-body bg-light" id="task-form">
+        <div class="mb-2">
+            <label class="form-label" for="task-title">
+                New to do item:
+            </label>
+            <input class="form-control"
+                   type="text"
+                   name="title"
+                   value="Buy Milk"
+                   id="task-title">
+            <div class="form-text">Add description</div>
+        </div>
+        <button class="btn btn-primary" type="submit">Add</button>
+
+    </form>
+
+
+</div>
+<script src="index.js"></script>
+</body>
+</html>
